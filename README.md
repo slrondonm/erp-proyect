@@ -4,19 +4,35 @@
 
 ## Descripción
 
-Este proyecto utiliza el framework PHP Slim 4 y una serie de dependencias para proporcionar un sistema ERP básico con funciones de autenticación, gestión de usuarios, gestión de pedidos, gestión de productos y más.
+Este proyecto utiliza el framework PHP Slim 4 y una serie de dependencias para proporcionar un sistema ERP para fundaciones con funciones de autenticación, gestión de usuarios, gestión de beneficiarios, gestión de donantes, gestión de donaciones, gestión de proyectos y más.
 
 ### Requisitos
 
 * PHP 7.1 o superior
-* Composer
 * Servidor web compatible con PHP
+* Composer
+* Slim Framework 4
+* PHP-DI
+* Twig
+* Medoo
+* Monolog
+* PHP dotenv
+* PHPMailer
 * Instalación
-* Clona el repositorio o descarga el archivo ZIP.
-* Ejecuta composer install en la raíz del proyecto para instalar las dependencias.
+* Clona el repositorio 'git clone <https://github.com/slrondom/erp-project.git>' o descarga el archivo ZIP.
+* Ejecuta 'composer install' en la raíz del proyecto para instalar las dependencias.
 * Configura tu servidor web para que la carpeta pública sea la carpeta public/.
 * Copia el archivo .env.example a .env y configura las variables de entorno según sea necesario.
 * Abre el proyecto en tu navegador y sigue las instrucciones de configuración.
+
+### Funcionalidades
+
+Este proyecto incluye las siguientes funcionalidades:
+
+* Gestión de Usuarios y Roles
+* Gestión de Beneficiarios y Benefactores
+* Gestión de Donaciones y Proyectos
+* Informes y estadísticas
 
 ### Uso
 
