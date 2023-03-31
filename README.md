@@ -19,10 +19,10 @@ Este proyecto utiliza el framework PHP Slim 4 y una serie de dependencias para p
 * PHP dotenv
 * PHPMailer
 * Instalación
-* Clona el repositorio 'git clone <https://github.com/slrondom/erp-project.git>' o descarga el archivo ZIP.
-* Ejecuta 'composer install' en la raíz del proyecto para instalar las dependencias.
-* Configura tu servidor web para que la carpeta pública sea la carpeta public/.
-* Copia el archivo .env.example a .env y configura las variables de entorno según sea necesario.
+* Clona el repositorio `git clone <https://github.com/slrondom/erp-project.git>` o descarga el archivo ZIP.
+* Ejecuta `composer install` en la raíz del proyecto para instalar las dependencias.
+* Configura tu servidor web para que la carpeta pública sea la carpeta `public/`.
+* Copia el archivo `.env.example` a `.env` y configura las variables de entorno según sea necesario.
 * Abre el proyecto en tu navegador y sigue las instrucciones de configuración.
 
 ### Funcionalidades
