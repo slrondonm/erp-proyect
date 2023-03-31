@@ -1,0 +1,28 @@
+{
+    "name": "ideamostuweb/erp-project",
+    "description": "Proyecto de ERP para Fundaciones",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergio Rondón - IDEAMOS TU WEB",
+            "email": "proyectos@ideamostuweb.com",
+            "homepage": "https://ideamostuweb.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "slim/slim": "^4.11",
+        "vlucas/phpdotenv": "^5.5",
+        "php-di/php-di": "^7.0",
+        "slim/psr7": "^1.6",
+        "monolog/monolog": "^3.3",
+        "slim/twig-view": "^3.3",
+        "catfan/medoo": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErpProject\\": "src/"
+        }
+    }
+}
